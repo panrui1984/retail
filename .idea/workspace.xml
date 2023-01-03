@@ -1,11 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8ebd78f-4372-4d36-bd46-ed542b6395fc" name="Changes" comment="" />
+    <list default="true" id="e8ebd78f-4372-4d36-bd46-ed542b6395fc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/retail-admin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-admin/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-admin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-admin/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-admin/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-admin/src/main/java/com/cmbc/RetailAdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-admin/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-admin/src/main/resources/application-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-admin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-admin/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-admin/src/test/java/com/cmbc/RetailAdminApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/core/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/core/domain/BaseEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/core/domain/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/core/mapper/BaseMapperPlus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/DemoModeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/GlobalException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/ServiceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/UtilException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/base/BaseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/file/FileException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/file/FileNameLengthLimitExceededException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/file/FileSizeLimitExceededException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/user/CaptchaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/user/CaptchaExpireException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/user/UserException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/user/UserPasswordNotMatchException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/user/UserPasswordRetryLimitExceedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/utils/BeanCopyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/utils/DateUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/utils/JsonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/utils/MessageUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/utils/StreamUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/utils/StringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/utils/Threads.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/utils/TreeBuildUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/utils/reflect/ReflectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/utils/spring/SpringUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/test/java/com/cmbc/common/common/CommonApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-framework/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-framework/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-framework/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-framework/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-framework/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-framework/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-framework/src/main/java/com/cmbc/framework/config/TLogConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-framework/src/test/java/com/cmbc/framework/RetailFrameworkApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="spring-beans.schema" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -15,18 +94,67 @@
     </option>
   </component>
   <component name="ProjectId" id="2JnIQOgeFKVnGQBEzxS8oC6PwOE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "17",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "e3816131f42c6ace6f9143eae72f85d5",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Spring Boot.RetailAdminApplication">
+    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="retail-common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cmbc.common.common.CommonApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="retail-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cmbc.demo.DemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RetailAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="retail-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cmbc.RetailAdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RetailFrameworkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="retail-framework" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.retailframework.RetailFrameworkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -35,8 +163,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1672707409609</updated>
-      <workItem from="1672707409610" duration="1000" />
+      <workItem from="1672707409610" duration="10093000" />
+      <workItem from="1672725420238" duration="6464000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
