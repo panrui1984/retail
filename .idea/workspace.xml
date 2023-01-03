@@ -4,67 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e8ebd78f-4372-4d36-bd46-ed542b6395fc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/retail-admin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-admin/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-admin/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-admin/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-admin/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-admin/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-admin/src/main/java/com/cmbc/RetailAdminApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-admin/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-admin/src/main/resources/application-prod.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-admin/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-admin/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-admin/src/test/java/com/cmbc/RetailAdminApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/core/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/core/domain/BaseEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/core/domain/R.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/core/mapper/BaseMapperPlus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/DemoModeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/GlobalException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/ServiceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/UtilException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/base/BaseException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/file/FileException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/file/FileNameLengthLimitExceededException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/file/FileSizeLimitExceededException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/user/CaptchaException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/user/CaptchaExpireException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/user/UserException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/user/UserPasswordNotMatchException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/exception/user/UserPasswordRetryLimitExceedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/utils/BeanCopyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/utils/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/utils/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/utils/MessageUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/utils/StreamUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/utils/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/utils/Threads.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/utils/TreeBuildUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/utils/reflect/ReflectUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/utils/spring/SpringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-common/src/test/java/com/cmbc/common/common/CommonApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-framework/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-framework/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-framework/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-framework/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-framework/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-framework/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-framework/src/main/java/com/cmbc/framework/config/TLogConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/retail-framework/src/test/java/com/cmbc/framework/RetailFrameworkApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="e8ebd78f-4372-4d36-bd46-ed542b6395fc" name="Changes" comment="首次上传">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -164,8 +105,16 @@
       <option name="presentableId" value="Default" />
       <updated>1672707409609</updated>
       <workItem from="1672707409610" duration="10093000" />
-      <workItem from="1672725420238" duration="6464000" />
+      <workItem from="1672725420238" duration="7165000" />
     </task>
+    <task id="LOCAL-00001" summary="首次上传">
+      <created>1672732598334</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1672732598334</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,5 +122,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="首次上传" />
+    <option name="LAST_COMMIT_MESSAGE" value="首次上传" />
   </component>
 </project>
