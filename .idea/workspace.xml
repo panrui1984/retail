@@ -5,7 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8ebd78f-4372-4d36-bd46-ed542b6395fc" name="Changes" comment="首次上传">
+      <change afterPath="$PROJECT_DIR$/retail-admin/src/main/java/com/cmbc/web/controller/system/SysLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-admin/src/main/java/com/cmbc/web/core/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/config/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/constant/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/constant/UserConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/core/domain/model/LoginBody.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/core/domain/model/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-common/src/main/java/com/cmbc/common/helper/LoginHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-framework/src/main/java/com/cmbc/framework/config/ResourcesConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-framework/src/main/java/com/cmbc/framework/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/retail-framework/src/main/java/com/cmbc/framework/handler/CreateAndUpdateMetaObjectHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/retail-admin/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/retail-admin/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/retail-admin/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/retail-admin/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/retail-admin/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/retail-admin/src/main/resources/application-prod.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/retail-admin/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/retail-admin/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/retail-admin/src/test/java/com/cmbc/RetailAdminApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/retail-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/retail-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/retail-common/src/test/java/com/cmbc/common/common/CommonApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/retail-demo/src/test/java/com/cmbc/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/retail-framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/retail-framework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/retail-framework/src/main/java/com/cmbc/framework/config/TLogConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/retail-framework/src/main/java/com/cmbc/framework/config/TLogConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/retail-framework/src/test/java/com/cmbc/framework/RetailFrameworkApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,30 +66,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "17",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "e3816131f42c6ace6f9143eae72f85d5",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;6ce98118fe70048a339728b0d840283b&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Spring Boot.RetailAdminApplication">
     <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="retail-common" />
@@ -105,7 +129,9 @@
       <option name="presentableId" value="Default" />
       <updated>1672707409609</updated>
       <workItem from="1672707409610" duration="10093000" />
-      <workItem from="1672725420238" duration="7165000" />
+      <workItem from="1672725420238" duration="11755000" />
+      <workItem from="1672791635721" duration="7709000" />
+      <workItem from="1672810760663" duration="10568000" />
     </task>
     <task id="LOCAL-00001" summary="首次上传">
       <created>1672732598334</created>
@@ -122,6 +148,13 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/retail-admin" />
+      <path value="$PROJECT_DIR$/retail-common" />
+      <path value="$PROJECT_DIR$/retail-demo" />
+      <path value="$PROJECT_DIR$/retail-framework" />
+      <path value="$PROJECT_DIR$/retail-web" />
+    </ignored-roots>
     <MESSAGE value="首次上传" />
     <option name="LAST_COMMIT_MESSAGE" value="首次上传" />
   </component>

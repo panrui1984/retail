@@ -2,9 +2,5 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/retail-admin" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/retail-common" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/retail-demo" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/retail-framework" vcs="Git" />
   </component>
 </project>

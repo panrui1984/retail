@@ -37,6 +37,7 @@
         <tlog.version>1.5.0</tlog.version>
         <p6spy.version>3.9.1</p6spy.version>
         <snakeyaml.version>1.32</snakeyaml.version>
+        <swagger.version>3.0.0</swagger.version>
     </properties>
 
 
@@ -107,6 +108,19 @@
                 <version>${mybatis-plus.version}</version>
             </dependency>
 
+            <!-- Swagger3依赖 -->
+            <dependency>
+                <groupId>io.springfox</groupId>
+                <artifactId>springfox-boot-starter</artifactId>
+                <version>${swagger.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>io.swagger</groupId>
+                        <artifactId>swagger-models</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
             <!-- sql性能分析插件 -->
             <dependency>
                 <groupId>p6spy</groupId>
@@ -139,6 +153,7 @@
                 <artifactId>snakeyaml</artifactId>
                 <version>${snakeyaml.version}</version>
             </dependency>
+
 
             <!-- 核心模块-->
             <dependency>
